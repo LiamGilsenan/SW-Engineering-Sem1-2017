@@ -32,10 +32,8 @@
             this.error_NP_L = new System.Windows.Forms.Label();
             this.confirm_NP_BTN = new System.Windows.Forms.Button();
             this.cancel_NP_BTN = new System.Windows.Forms.Button();
-            this.town_NP_TB = new System.Windows.Forms.TextBox();
-            this.town_NP_LBL = new System.Windows.Forms.Label();
-            this.city_NP_TB = new System.Windows.Forms.TextBox();
-            this.city_NP_LBL = new System.Windows.Forms.Label();
+            this.townCity_NP_TB = new System.Windows.Forms.TextBox();
+            this.townCity_NP_LBL = new System.Windows.Forms.Label();
             this.postcode_NP_TB = new System.Windows.Forms.TextBox();
             this.postcode_NP_LBL = new System.Windows.Forms.Label();
             this.address_NP_TB = new System.Windows.Forms.TextBox();
@@ -97,10 +95,8 @@
             this.address_EP_TB = new System.Windows.Forms.TextBox();
             this.postcode_EP_L = new System.Windows.Forms.Label();
             this.postcode_EP_TB = new System.Windows.Forms.TextBox();
-            this.city_EP_L = new System.Windows.Forms.Label();
-            this.city_EP_TB = new System.Windows.Forms.TextBox();
-            this.town_EP_L = new System.Windows.Forms.Label();
-            this.town_EP_TB = new System.Windows.Forms.TextBox();
+            this.townCity_EP_L = new System.Windows.Forms.Label();
+            this.townCity_EP_TB = new System.Windows.Forms.TextBox();
             this.cancel_EP_B = new System.Windows.Forms.Button();
             this.confirm_EP_B = new System.Windows.Forms.Button();
             this.error_EP_L = new System.Windows.Forms.Label();
@@ -116,10 +112,8 @@
             this.newPatientPanel.Controls.Add(this.error_NP_L);
             this.newPatientPanel.Controls.Add(this.confirm_NP_BTN);
             this.newPatientPanel.Controls.Add(this.cancel_NP_BTN);
-            this.newPatientPanel.Controls.Add(this.town_NP_TB);
-            this.newPatientPanel.Controls.Add(this.town_NP_LBL);
-            this.newPatientPanel.Controls.Add(this.city_NP_TB);
-            this.newPatientPanel.Controls.Add(this.city_NP_LBL);
+            this.newPatientPanel.Controls.Add(this.townCity_NP_TB);
+            this.newPatientPanel.Controls.Add(this.townCity_NP_LBL);
             this.newPatientPanel.Controls.Add(this.postcode_NP_TB);
             this.newPatientPanel.Controls.Add(this.postcode_NP_LBL);
             this.newPatientPanel.Controls.Add(this.address_NP_TB);
@@ -133,13 +127,13 @@
             this.newPatientPanel.Controls.Add(this.firstName_NP_LBL);
             this.newPatientPanel.Location = new System.Drawing.Point(21, 12);
             this.newPatientPanel.Name = "newPatientPanel";
-            this.newPatientPanel.Size = new System.Drawing.Size(316, 386);
+            this.newPatientPanel.Size = new System.Drawing.Size(316, 343);
             this.newPatientPanel.TabIndex = 0;
             // 
             // error_NP_L
             // 
             this.error_NP_L.AutoSize = true;
-            this.error_NP_L.Location = new System.Drawing.Point(31, 287);
+            this.error_NP_L.Location = new System.Drawing.Point(31, 274);
             this.error_NP_L.Name = "error_NP_L";
             this.error_NP_L.Size = new System.Drawing.Size(79, 17);
             this.error_NP_L.TabIndex = 18;
@@ -147,7 +141,7 @@
             // 
             // confirm_NP_BTN
             // 
-            this.confirm_NP_BTN.Location = new System.Drawing.Point(197, 335);
+            this.confirm_NP_BTN.Location = new System.Drawing.Point(197, 308);
             this.confirm_NP_BTN.Name = "confirm_NP_BTN";
             this.confirm_NP_BTN.Size = new System.Drawing.Size(75, 23);
             this.confirm_NP_BTN.TabIndex = 8;
@@ -156,48 +150,32 @@
             // 
             // cancel_NP_BTN
             // 
-            this.cancel_NP_BTN.Location = new System.Drawing.Point(30, 335);
+            this.cancel_NP_BTN.Location = new System.Drawing.Point(30, 308);
             this.cancel_NP_BTN.Name = "cancel_NP_BTN";
             this.cancel_NP_BTN.Size = new System.Drawing.Size(75, 23);
             this.cancel_NP_BTN.TabIndex = 9;
             this.cancel_NP_BTN.Text = "Cancel";
             this.cancel_NP_BTN.UseVisualStyleBackColor = true;
             // 
-            // town_NP_TB
+            // townCity_NP_TB
             // 
-            this.town_NP_TB.Location = new System.Drawing.Point(109, 186);
-            this.town_NP_TB.Name = "town_NP_TB";
-            this.town_NP_TB.Size = new System.Drawing.Size(100, 22);
-            this.town_NP_TB.TabIndex = 5;
+            this.townCity_NP_TB.Location = new System.Drawing.Point(109, 186);
+            this.townCity_NP_TB.Name = "townCity_NP_TB";
+            this.townCity_NP_TB.Size = new System.Drawing.Size(100, 22);
+            this.townCity_NP_TB.TabIndex = 5;
             // 
-            // town_NP_LBL
+            // townCity_NP_LBL
             // 
-            this.town_NP_LBL.AutoSize = true;
-            this.town_NP_LBL.Location = new System.Drawing.Point(29, 186);
-            this.town_NP_LBL.Name = "town_NP_LBL";
-            this.town_NP_LBL.Size = new System.Drawing.Size(42, 17);
-            this.town_NP_LBL.TabIndex = 17;
-            this.town_NP_LBL.Text = "Town";
-            // 
-            // city_NP_TB
-            // 
-            this.city_NP_TB.Location = new System.Drawing.Point(109, 214);
-            this.city_NP_TB.Name = "city_NP_TB";
-            this.city_NP_TB.Size = new System.Drawing.Size(100, 22);
-            this.city_NP_TB.TabIndex = 6;
-            // 
-            // city_NP_LBL
-            // 
-            this.city_NP_LBL.AutoSize = true;
-            this.city_NP_LBL.Location = new System.Drawing.Point(29, 214);
-            this.city_NP_LBL.Name = "city_NP_LBL";
-            this.city_NP_LBL.Size = new System.Drawing.Size(31, 17);
-            this.city_NP_LBL.TabIndex = 13;
-            this.city_NP_LBL.Text = "City";
+            this.townCity_NP_LBL.AutoSize = true;
+            this.townCity_NP_LBL.Location = new System.Drawing.Point(29, 186);
+            this.townCity_NP_LBL.Name = "townCity_NP_LBL";
+            this.townCity_NP_LBL.Size = new System.Drawing.Size(77, 17);
+            this.townCity_NP_LBL.TabIndex = 17;
+            this.townCity_NP_LBL.Text = "Town / City";
             // 
             // postcode_NP_TB
             // 
-            this.postcode_NP_TB.Location = new System.Drawing.Point(109, 242);
+            this.postcode_NP_TB.Location = new System.Drawing.Point(109, 215);
             this.postcode_NP_TB.Name = "postcode_NP_TB";
             this.postcode_NP_TB.Size = new System.Drawing.Size(100, 22);
             this.postcode_NP_TB.TabIndex = 7;
@@ -205,7 +183,7 @@
             // postcode_NP_LBL
             // 
             this.postcode_NP_LBL.AutoSize = true;
-            this.postcode_NP_LBL.Location = new System.Drawing.Point(29, 242);
+            this.postcode_NP_LBL.Location = new System.Drawing.Point(29, 215);
             this.postcode_NP_LBL.Name = "postcode_NP_LBL";
             this.postcode_NP_LBL.Size = new System.Drawing.Size(67, 17);
             this.postcode_NP_LBL.TabIndex = 11;
@@ -555,7 +533,7 @@
             this.AppointmentPanel.Controls.Add(this.label21);
             this.AppointmentPanel.Location = new System.Drawing.Point(361, 414);
             this.AppointmentPanel.Name = "AppointmentPanel";
-            this.AppointmentPanel.Size = new System.Drawing.Size(344, 350);
+            this.AppointmentPanel.Size = new System.Drawing.Size(344, 327);
             this.AppointmentPanel.TabIndex = 48;
             // 
             // textBox1
@@ -742,7 +720,7 @@
             // postcode_EP_L
             // 
             this.postcode_EP_L.AutoSize = true;
-            this.postcode_EP_L.Location = new System.Drawing.Point(29, 242);
+            this.postcode_EP_L.Location = new System.Drawing.Point(29, 217);
             this.postcode_EP_L.Name = "postcode_EP_L";
             this.postcode_EP_L.Size = new System.Drawing.Size(67, 17);
             this.postcode_EP_L.TabIndex = 11;
@@ -750,46 +728,30 @@
             // 
             // postcode_EP_TB
             // 
-            this.postcode_EP_TB.Location = new System.Drawing.Point(109, 242);
+            this.postcode_EP_TB.Location = new System.Drawing.Point(109, 217);
             this.postcode_EP_TB.Name = "postcode_EP_TB";
             this.postcode_EP_TB.Size = new System.Drawing.Size(100, 22);
             this.postcode_EP_TB.TabIndex = 7;
             // 
-            // city_EP_L
+            // townCity_EP_L
             // 
-            this.city_EP_L.AutoSize = true;
-            this.city_EP_L.Location = new System.Drawing.Point(29, 214);
-            this.city_EP_L.Name = "city_EP_L";
-            this.city_EP_L.Size = new System.Drawing.Size(31, 17);
-            this.city_EP_L.TabIndex = 13;
-            this.city_EP_L.Text = "City";
+            this.townCity_EP_L.AutoSize = true;
+            this.townCity_EP_L.Location = new System.Drawing.Point(29, 186);
+            this.townCity_EP_L.Name = "townCity_EP_L";
+            this.townCity_EP_L.Size = new System.Drawing.Size(77, 17);
+            this.townCity_EP_L.TabIndex = 17;
+            this.townCity_EP_L.Text = "Town / City";
             // 
-            // city_EP_TB
+            // townCity_EP_TB
             // 
-            this.city_EP_TB.Location = new System.Drawing.Point(109, 214);
-            this.city_EP_TB.Name = "city_EP_TB";
-            this.city_EP_TB.Size = new System.Drawing.Size(100, 22);
-            this.city_EP_TB.TabIndex = 6;
-            // 
-            // town_EP_L
-            // 
-            this.town_EP_L.AutoSize = true;
-            this.town_EP_L.Location = new System.Drawing.Point(29, 186);
-            this.town_EP_L.Name = "town_EP_L";
-            this.town_EP_L.Size = new System.Drawing.Size(42, 17);
-            this.town_EP_L.TabIndex = 17;
-            this.town_EP_L.Text = "Town";
-            // 
-            // town_EP_TB
-            // 
-            this.town_EP_TB.Location = new System.Drawing.Point(109, 186);
-            this.town_EP_TB.Name = "town_EP_TB";
-            this.town_EP_TB.Size = new System.Drawing.Size(100, 22);
-            this.town_EP_TB.TabIndex = 5;
+            this.townCity_EP_TB.Location = new System.Drawing.Point(109, 186);
+            this.townCity_EP_TB.Name = "townCity_EP_TB";
+            this.townCity_EP_TB.Size = new System.Drawing.Size(100, 22);
+            this.townCity_EP_TB.TabIndex = 5;
             // 
             // cancel_EP_B
             // 
-            this.cancel_EP_B.Location = new System.Drawing.Point(30, 335);
+            this.cancel_EP_B.Location = new System.Drawing.Point(32, 308);
             this.cancel_EP_B.Name = "cancel_EP_B";
             this.cancel_EP_B.Size = new System.Drawing.Size(75, 23);
             this.cancel_EP_B.TabIndex = 9;
@@ -798,7 +760,7 @@
             // 
             // confirm_EP_B
             // 
-            this.confirm_EP_B.Location = new System.Drawing.Point(197, 335);
+            this.confirm_EP_B.Location = new System.Drawing.Point(197, 308);
             this.confirm_EP_B.Name = "confirm_EP_B";
             this.confirm_EP_B.Size = new System.Drawing.Size(75, 23);
             this.confirm_EP_B.TabIndex = 8;
@@ -808,7 +770,7 @@
             // error_EP_L
             // 
             this.error_EP_L.AutoSize = true;
-            this.error_EP_L.Location = new System.Drawing.Point(31, 287);
+            this.error_EP_L.Location = new System.Drawing.Point(31, 274);
             this.error_EP_L.Name = "error_EP_L";
             this.error_EP_L.Size = new System.Drawing.Size(79, 17);
             this.error_EP_L.TabIndex = 18;
@@ -819,10 +781,8 @@
             this.editPatientPanel.Controls.Add(this.error_EP_L);
             this.editPatientPanel.Controls.Add(this.confirm_EP_B);
             this.editPatientPanel.Controls.Add(this.cancel_EP_B);
-            this.editPatientPanel.Controls.Add(this.town_EP_TB);
-            this.editPatientPanel.Controls.Add(this.town_EP_L);
-            this.editPatientPanel.Controls.Add(this.city_EP_TB);
-            this.editPatientPanel.Controls.Add(this.city_EP_L);
+            this.editPatientPanel.Controls.Add(this.townCity_EP_TB);
+            this.editPatientPanel.Controls.Add(this.townCity_EP_L);
             this.editPatientPanel.Controls.Add(this.postcode_EP_TB);
             this.editPatientPanel.Controls.Add(this.postcode_EP_L);
             this.editPatientPanel.Controls.Add(this.address_EP_TB);
@@ -836,14 +796,14 @@
             this.editPatientPanel.Controls.Add(this.firstName_EP_L);
             this.editPatientPanel.Location = new System.Drawing.Point(1005, 12);
             this.editPatientPanel.Name = "editPatientPanel";
-            this.editPatientPanel.Size = new System.Drawing.Size(316, 386);
+            this.editPatientPanel.Size = new System.Drawing.Size(316, 343);
             this.editPatientPanel.TabIndex = 19;
             // 
             // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1786, 809);
+            this.ClientSize = new System.Drawing.Size(1337, 745);
             this.Controls.Add(this.AppointmentPanel);
             this.Controls.Add(this.editPatientPanel);
             this.Controls.Add(this.findPatientPanel);
@@ -865,8 +825,6 @@
         #endregion
 
         private System.Windows.Forms.Panel newPatientPanel;
-        private System.Windows.Forms.TextBox city_NP_TB;
-        private System.Windows.Forms.Label city_NP_LBL;
         private System.Windows.Forms.TextBox postcode_NP_TB;
         private System.Windows.Forms.Label postcode_NP_LBL;
         private System.Windows.Forms.TextBox address_NP_TB;
@@ -880,8 +838,8 @@
         private System.Windows.Forms.Label firstName_NP_LBL;
         private System.Windows.Forms.Button confirm_NP_BTN;
         private System.Windows.Forms.Button cancel_NP_BTN;
-        private System.Windows.Forms.TextBox town_NP_TB;
-        private System.Windows.Forms.Label town_NP_LBL;
+        private System.Windows.Forms.TextBox townCity_NP_TB;
+        private System.Windows.Forms.Label townCity_NP_LBL;
         private System.Windows.Forms.Label error_NP_L;
         private System.Windows.Forms.Panel findPatientPanel;
         private System.Windows.Forms.Button edit_FP_B;
@@ -933,10 +891,8 @@
         private System.Windows.Forms.TextBox address_EP_TB;
         private System.Windows.Forms.Label postcode_EP_L;
         private System.Windows.Forms.TextBox postcode_EP_TB;
-        private System.Windows.Forms.Label city_EP_L;
-        private System.Windows.Forms.TextBox city_EP_TB;
-        private System.Windows.Forms.Label town_EP_L;
-        private System.Windows.Forms.TextBox town_EP_TB;
+        private System.Windows.Forms.Label townCity_EP_L;
+        private System.Windows.Forms.TextBox townCity_EP_TB;
         private System.Windows.Forms.Button cancel_EP_B;
         private System.Windows.Forms.Button confirm_EP_B;
         private System.Windows.Forms.Label error_EP_L;
