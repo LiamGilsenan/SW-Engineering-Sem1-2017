@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.newPatientPanel = new System.Windows.Forms.Panel();
+            this.county_NP_TB = new System.Windows.Forms.TextBox();
+            this.county_NP_L = new System.Windows.Forms.Label();
             this.error_NP_L = new System.Windows.Forms.Label();
             this.confirm_NP_BTN = new System.Windows.Forms.Button();
             this.cancel_NP_BTN = new System.Windows.Forms.Button();
@@ -72,18 +74,18 @@
             this.firstName_FP_TB = new System.Windows.Forms.TextBox();
             this.firstName_FP_LBL = new System.Windows.Forms.Label();
             this.AppointmentPanel = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.button15 = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
             this.firstName_EP_L = new System.Windows.Forms.Label();
             this.firstName_EP_TB = new System.Windows.Forms.TextBox();
             this.surname_EP_L = new System.Windows.Forms.Label();
@@ -101,6 +103,8 @@
             this.confirm_EP_B = new System.Windows.Forms.Button();
             this.error_EP_L = new System.Windows.Forms.Label();
             this.editPatientPanel = new System.Windows.Forms.Panel();
+            this.county_EP_TB = new System.Windows.Forms.TextBox();
+            this.county_EP_L = new System.Windows.Forms.Label();
             this.newPatientPanel.SuspendLayout();
             this.findPatientPanel.SuspendLayout();
             this.AppointmentPanel.SuspendLayout();
@@ -109,6 +113,8 @@
             // 
             // newPatientPanel
             // 
+            this.newPatientPanel.Controls.Add(this.county_NP_TB);
+            this.newPatientPanel.Controls.Add(this.county_NP_L);
             this.newPatientPanel.Controls.Add(this.error_NP_L);
             this.newPatientPanel.Controls.Add(this.confirm_NP_BTN);
             this.newPatientPanel.Controls.Add(this.cancel_NP_BTN);
@@ -129,6 +135,22 @@
             this.newPatientPanel.Name = "newPatientPanel";
             this.newPatientPanel.Size = new System.Drawing.Size(316, 343);
             this.newPatientPanel.TabIndex = 0;
+            // 
+            // county_NP_TB
+            // 
+            this.county_NP_TB.Location = new System.Drawing.Point(109, 215);
+            this.county_NP_TB.Name = "county_NP_TB";
+            this.county_NP_TB.Size = new System.Drawing.Size(100, 22);
+            this.county_NP_TB.TabIndex = 19;
+            // 
+            // county_NP_L
+            // 
+            this.county_NP_L.AutoSize = true;
+            this.county_NP_L.Location = new System.Drawing.Point(31, 218);
+            this.county_NP_L.Name = "county_NP_L";
+            this.county_NP_L.Size = new System.Drawing.Size(52, 17);
+            this.county_NP_L.TabIndex = 20;
+            this.county_NP_L.Text = "County";
             // 
             // error_NP_L
             // 
@@ -175,7 +197,7 @@
             // 
             // postcode_NP_TB
             // 
-            this.postcode_NP_TB.Location = new System.Drawing.Point(109, 215);
+            this.postcode_NP_TB.Location = new System.Drawing.Point(109, 243);
             this.postcode_NP_TB.Name = "postcode_NP_TB";
             this.postcode_NP_TB.Size = new System.Drawing.Size(100, 22);
             this.postcode_NP_TB.TabIndex = 7;
@@ -183,7 +205,7 @@
             // postcode_NP_LBL
             // 
             this.postcode_NP_LBL.AutoSize = true;
-            this.postcode_NP_LBL.Location = new System.Drawing.Point(29, 215);
+            this.postcode_NP_LBL.Location = new System.Drawing.Point(31, 246);
             this.postcode_NP_LBL.Name = "postcode_NP_LBL";
             this.postcode_NP_LBL.Size = new System.Drawing.Size(67, 17);
             this.postcode_NP_LBL.TabIndex = 11;
@@ -536,6 +558,40 @@
             this.AppointmentPanel.Size = new System.Drawing.Size(344, 327);
             this.AppointmentPanel.TabIndex = 48;
             // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(178, 291);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(118, 29);
+            this.button6.TabIndex = 51;
+            this.button6.Text = "Confirm";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(124, 128);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(161, 24);
+            this.comboBox2.TabIndex = 50;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(10, 131);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(108, 17);
+            this.label1.TabIndex = 49;
+            this.label1.Text = "Member of Staff";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(124, 98);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(161, 24);
+            this.comboBox1.TabIndex = 48;
+            // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(124, 65);
@@ -570,6 +626,15 @@
             this.button15.Text = "Back";
             this.button15.UseVisualStyleBackColor = true;
             // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(124, 163);
+            this.dateTimePicker1.MaxDate = new System.DateTime(2017, 10, 17, 0, 0, 0, 0);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(163, 22);
+            this.dateTimePicker1.TabIndex = 3;
+            this.dateTimePicker1.Value = new System.DateTime(2017, 10, 17, 0, 0, 0, 0);
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -580,15 +645,6 @@
             this.label7.TabIndex = 6;
             this.label7.Text = "New Appointment";
             // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(45, 101);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(73, 17);
-            this.label21.TabIndex = 0;
-            this.label21.Text = "Staff Type";
-            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -598,48 +654,14 @@
             this.label10.TabIndex = 4;
             this.label10.Text = "Appointment";
             // 
-            // dateTimePicker1
+            // label21
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(124, 163);
-            this.dateTimePicker1.MaxDate = new System.DateTime(2017, 10, 17, 0, 0, 0, 0);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(163, 22);
-            this.dateTimePicker1.TabIndex = 3;
-            this.dateTimePicker1.Value = new System.DateTime(2017, 10, 17, 0, 0, 0, 0);
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(124, 98);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(161, 24);
-            this.comboBox1.TabIndex = 48;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(124, 128);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(161, 24);
-            this.comboBox2.TabIndex = 50;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(10, 131);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(108, 17);
-            this.label1.TabIndex = 49;
-            this.label1.Text = "Member of Staff";
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(178, 291);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(118, 29);
-            this.button6.TabIndex = 51;
-            this.button6.Text = "Confirm";
-            this.button6.UseVisualStyleBackColor = true;
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(45, 101);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(73, 17);
+            this.label21.TabIndex = 0;
+            this.label21.Text = "Staff Type";
             // 
             // firstName_EP_L
             // 
@@ -720,7 +742,7 @@
             // postcode_EP_L
             // 
             this.postcode_EP_L.AutoSize = true;
-            this.postcode_EP_L.Location = new System.Drawing.Point(29, 217);
+            this.postcode_EP_L.Location = new System.Drawing.Point(27, 246);
             this.postcode_EP_L.Name = "postcode_EP_L";
             this.postcode_EP_L.Size = new System.Drawing.Size(67, 17);
             this.postcode_EP_L.TabIndex = 11;
@@ -728,7 +750,7 @@
             // 
             // postcode_EP_TB
             // 
-            this.postcode_EP_TB.Location = new System.Drawing.Point(109, 217);
+            this.postcode_EP_TB.Location = new System.Drawing.Point(109, 243);
             this.postcode_EP_TB.Name = "postcode_EP_TB";
             this.postcode_EP_TB.Size = new System.Drawing.Size(100, 22);
             this.postcode_EP_TB.TabIndex = 7;
@@ -778,6 +800,8 @@
             // 
             // editPatientPanel
             // 
+            this.editPatientPanel.Controls.Add(this.county_EP_TB);
+            this.editPatientPanel.Controls.Add(this.county_EP_L);
             this.editPatientPanel.Controls.Add(this.error_EP_L);
             this.editPatientPanel.Controls.Add(this.confirm_EP_B);
             this.editPatientPanel.Controls.Add(this.cancel_EP_B);
@@ -798,6 +822,22 @@
             this.editPatientPanel.Name = "editPatientPanel";
             this.editPatientPanel.Size = new System.Drawing.Size(316, 343);
             this.editPatientPanel.TabIndex = 19;
+            // 
+            // county_EP_TB
+            // 
+            this.county_EP_TB.Location = new System.Drawing.Point(109, 215);
+            this.county_EP_TB.Name = "county_EP_TB";
+            this.county_EP_TB.Size = new System.Drawing.Size(100, 22);
+            this.county_EP_TB.TabIndex = 21;
+            // 
+            // county_EP_L
+            // 
+            this.county_EP_L.AutoSize = true;
+            this.county_EP_L.Location = new System.Drawing.Point(31, 217);
+            this.county_EP_L.Name = "county_EP_L";
+            this.county_EP_L.Size = new System.Drawing.Size(52, 17);
+            this.county_EP_L.TabIndex = 22;
+            this.county_EP_L.Text = "County";
             // 
             // mainForm
             // 
@@ -897,6 +937,10 @@
         private System.Windows.Forms.Button confirm_EP_B;
         private System.Windows.Forms.Label error_EP_L;
         private System.Windows.Forms.Panel editPatientPanel;
+        private System.Windows.Forms.TextBox county_NP_TB;
+        private System.Windows.Forms.Label county_NP_L;
+        private System.Windows.Forms.TextBox county_EP_TB;
+        private System.Windows.Forms.Label county_EP_L;
     }
 }
 
