@@ -26,5 +26,15 @@ namespace loginForm
         {
 
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void login_L_lbl_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
