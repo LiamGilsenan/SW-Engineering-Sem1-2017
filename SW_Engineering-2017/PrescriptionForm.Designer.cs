@@ -29,237 +29,237 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PrescriptionForm));
-            this.patientDetails = new System.Windows.Forms.GroupBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.patientTitle = new System.Windows.Forms.Label();
-            this.patientDateOfBirth = new System.Windows.Forms.Label();
-            this.patientAddress = new System.Windows.Forms.GroupBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.patientPostCode = new System.Windows.Forms.Label();
-            this.patientTown = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.patientCounty = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.patientAddressLn2 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.patientAddressLn1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.patientForename = new System.Windows.Forms.Label();
-            this.patientSurname = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.prescriptionInfo = new System.Windows.Forms.GroupBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.prescriptionNotes = new System.Windows.Forms.GroupBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.prescriptionDate = new System.Windows.Forms.Label();
-            this.prescriptionQuantity = new System.Windows.Forms.Label();
-            this.prescriptionName = new System.Windows.Forms.Label();
+            this.prsPatientGrp = new System.Windows.Forms.GroupBox();
+            this.prsDOBPicker = new System.Windows.Forms.DateTimePicker();
+            this.prsTitleCombo = new System.Windows.Forms.ComboBox();
+            this.prsTitleLbl = new System.Windows.Forms.Label();
+            this.prsDateOfBirthLbl = new System.Windows.Forms.Label();
+            this.prsAddressGrp = new System.Windows.Forms.GroupBox();
+            this.prsPostCodeEntry = new System.Windows.Forms.TextBox();
+            this.prsPostCodeLbl = new System.Windows.Forms.Label();
+            this.prsTownLbl = new System.Windows.Forms.Label();
+            this.prsCountyEntry = new System.Windows.Forms.TextBox();
+            this.prsCountyLbl = new System.Windows.Forms.Label();
+            this.prsTownEntry = new System.Windows.Forms.TextBox();
+            this.prsAddLn2Entry = new System.Windows.Forms.TextBox();
+            this.prsAddLn2Lbl = new System.Windows.Forms.Label();
+            this.prsAddLn1Entry = new System.Windows.Forms.TextBox();
+            this.prsAddLn1Lbl = new System.Windows.Forms.Label();
+            this.prsFornameEntry = new System.Windows.Forms.TextBox();
+            this.prsForenameLbl = new System.Windows.Forms.Label();
+            this.presSurnameLbl = new System.Windows.Forms.Label();
+            this.prsSurnameEntry = new System.Windows.Forms.TextBox();
+            this.prsPrescriptionGrp = new System.Windows.Forms.GroupBox();
+            this.prsRenewCombo = new System.Windows.Forms.ComboBox();
+            this.prsRenewLbl = new System.Windows.Forms.Label();
+            this.prsNotesGrp = new System.Windows.Forms.GroupBox();
+            this.prsNotesEntry = new System.Windows.Forms.TextBox();
+            this.prsQuantityEntry = new System.Windows.Forms.TextBox();
+            this.prsPrescriptionNameEntry = new System.Windows.Forms.TextBox();
+            this.prsDatePicker = new System.Windows.Forms.DateTimePicker();
+            this.prsDateLbl = new System.Windows.Forms.Label();
+            this.prsQuantityLbl = new System.Windows.Forms.Label();
+            this.prsPrescriptionNameLbl = new System.Windows.Forms.Label();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnApply = new System.Windows.Forms.Button();
-            this.patientDetails.SuspendLayout();
-            this.patientAddress.SuspendLayout();
-            this.prescriptionInfo.SuspendLayout();
-            this.prescriptionNotes.SuspendLayout();
+            this.prsPatientGrp.SuspendLayout();
+            this.prsAddressGrp.SuspendLayout();
+            this.prsPrescriptionGrp.SuspendLayout();
+            this.prsNotesGrp.SuspendLayout();
             this.SuspendLayout();
             // 
-            // patientDetails
+            // prsPatientGrp
             // 
-            resources.ApplyResources(this.patientDetails, "patientDetails");
-            this.patientDetails.Controls.Add(this.dateTimePicker1);
-            this.patientDetails.Controls.Add(this.comboBox1);
-            this.patientDetails.Controls.Add(this.patientTitle);
-            this.patientDetails.Controls.Add(this.patientDateOfBirth);
-            this.patientDetails.Controls.Add(this.patientAddress);
-            this.patientDetails.Controls.Add(this.textBox2);
-            this.patientDetails.Controls.Add(this.patientForename);
-            this.patientDetails.Controls.Add(this.patientSurname);
-            this.patientDetails.Controls.Add(this.textBox1);
-            this.patientDetails.Name = "patientDetails";
-            this.patientDetails.TabStop = false;
-            this.patientDetails.Enter += new System.EventHandler(this.groupBox1_Enter);
+            resources.ApplyResources(this.prsPatientGrp, "prsPatientGrp");
+            this.prsPatientGrp.Controls.Add(this.prsDOBPicker);
+            this.prsPatientGrp.Controls.Add(this.prsTitleCombo);
+            this.prsPatientGrp.Controls.Add(this.prsTitleLbl);
+            this.prsPatientGrp.Controls.Add(this.prsDateOfBirthLbl);
+            this.prsPatientGrp.Controls.Add(this.prsAddressGrp);
+            this.prsPatientGrp.Controls.Add(this.prsFornameEntry);
+            this.prsPatientGrp.Controls.Add(this.prsForenameLbl);
+            this.prsPatientGrp.Controls.Add(this.presSurnameLbl);
+            this.prsPatientGrp.Controls.Add(this.prsSurnameEntry);
+            this.prsPatientGrp.Name = "prsPatientGrp";
+            this.prsPatientGrp.TabStop = false;
+            this.prsPatientGrp.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // dateTimePicker1
+            // prsDOBPicker
             // 
-            resources.ApplyResources(this.dateTimePicker1, "dateTimePicker1");
-            this.dateTimePicker1.Name = "dateTimePicker1";
+            resources.ApplyResources(this.prsDOBPicker, "prsDOBPicker");
+            this.prsDOBPicker.Name = "prsDOBPicker";
             // 
-            // comboBox1
+            // prsTitleCombo
             // 
-            resources.ApplyResources(this.comboBox1, "comboBox1");
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Name = "comboBox1";
+            resources.ApplyResources(this.prsTitleCombo, "prsTitleCombo");
+            this.prsTitleCombo.FormattingEnabled = true;
+            this.prsTitleCombo.Name = "prsTitleCombo";
             // 
-            // patientTitle
+            // prsTitleLbl
             // 
-            resources.ApplyResources(this.patientTitle, "patientTitle");
-            this.patientTitle.Name = "patientTitle";
+            resources.ApplyResources(this.prsTitleLbl, "prsTitleLbl");
+            this.prsTitleLbl.Name = "prsTitleLbl";
             // 
-            // patientDateOfBirth
+            // prsDateOfBirthLbl
             // 
-            resources.ApplyResources(this.patientDateOfBirth, "patientDateOfBirth");
-            this.patientDateOfBirth.Name = "patientDateOfBirth";
+            resources.ApplyResources(this.prsDateOfBirthLbl, "prsDateOfBirthLbl");
+            this.prsDateOfBirthLbl.Name = "prsDateOfBirthLbl";
             // 
-            // patientAddress
+            // prsAddressGrp
             // 
-            resources.ApplyResources(this.patientAddress, "patientAddress");
-            this.patientAddress.Controls.Add(this.textBox8);
-            this.patientAddress.Controls.Add(this.patientPostCode);
-            this.patientAddress.Controls.Add(this.patientTown);
-            this.patientAddress.Controls.Add(this.textBox7);
-            this.patientAddress.Controls.Add(this.patientCounty);
-            this.patientAddress.Controls.Add(this.textBox6);
-            this.patientAddress.Controls.Add(this.textBox5);
-            this.patientAddress.Controls.Add(this.patientAddressLn2);
-            this.patientAddress.Controls.Add(this.textBox3);
-            this.patientAddress.Controls.Add(this.patientAddressLn1);
-            this.patientAddress.Name = "patientAddress";
-            this.patientAddress.TabStop = false;
+            resources.ApplyResources(this.prsAddressGrp, "prsAddressGrp");
+            this.prsAddressGrp.Controls.Add(this.prsPostCodeEntry);
+            this.prsAddressGrp.Controls.Add(this.prsPostCodeLbl);
+            this.prsAddressGrp.Controls.Add(this.prsTownLbl);
+            this.prsAddressGrp.Controls.Add(this.prsCountyEntry);
+            this.prsAddressGrp.Controls.Add(this.prsCountyLbl);
+            this.prsAddressGrp.Controls.Add(this.prsTownEntry);
+            this.prsAddressGrp.Controls.Add(this.prsAddLn2Entry);
+            this.prsAddressGrp.Controls.Add(this.prsAddLn2Lbl);
+            this.prsAddressGrp.Controls.Add(this.prsAddLn1Entry);
+            this.prsAddressGrp.Controls.Add(this.prsAddLn1Lbl);
+            this.prsAddressGrp.Name = "prsAddressGrp";
+            this.prsAddressGrp.TabStop = false;
             // 
-            // textBox8
+            // prsPostCodeEntry
             // 
-            resources.ApplyResources(this.textBox8, "textBox8");
-            this.textBox8.Name = "textBox8";
+            resources.ApplyResources(this.prsPostCodeEntry, "prsPostCodeEntry");
+            this.prsPostCodeEntry.Name = "prsPostCodeEntry";
             // 
-            // patientPostCode
+            // prsPostCodeLbl
             // 
-            resources.ApplyResources(this.patientPostCode, "patientPostCode");
-            this.patientPostCode.Name = "patientPostCode";
+            resources.ApplyResources(this.prsPostCodeLbl, "prsPostCodeLbl");
+            this.prsPostCodeLbl.Name = "prsPostCodeLbl";
             // 
-            // patientTown
+            // prsTownLbl
             // 
-            resources.ApplyResources(this.patientTown, "patientTown");
-            this.patientTown.Name = "patientTown";
+            resources.ApplyResources(this.prsTownLbl, "prsTownLbl");
+            this.prsTownLbl.Name = "prsTownLbl";
             // 
-            // textBox7
+            // prsCountyEntry
             // 
-            resources.ApplyResources(this.textBox7, "textBox7");
-            this.textBox7.Name = "textBox7";
+            resources.ApplyResources(this.prsCountyEntry, "prsCountyEntry");
+            this.prsCountyEntry.Name = "prsCountyEntry";
             // 
-            // patientCounty
+            // prsCountyLbl
             // 
-            resources.ApplyResources(this.patientCounty, "patientCounty");
-            this.patientCounty.Name = "patientCounty";
+            resources.ApplyResources(this.prsCountyLbl, "prsCountyLbl");
+            this.prsCountyLbl.Name = "prsCountyLbl";
             // 
-            // textBox6
+            // prsTownEntry
             // 
-            resources.ApplyResources(this.textBox6, "textBox6");
-            this.textBox6.Name = "textBox6";
+            resources.ApplyResources(this.prsTownEntry, "prsTownEntry");
+            this.prsTownEntry.Name = "prsTownEntry";
             // 
-            // textBox5
+            // prsAddLn2Entry
             // 
-            resources.ApplyResources(this.textBox5, "textBox5");
-            this.textBox5.Name = "textBox5";
+            resources.ApplyResources(this.prsAddLn2Entry, "prsAddLn2Entry");
+            this.prsAddLn2Entry.Name = "prsAddLn2Entry";
             // 
-            // patientAddressLn2
+            // prsAddLn2Lbl
             // 
-            resources.ApplyResources(this.patientAddressLn2, "patientAddressLn2");
-            this.patientAddressLn2.Name = "patientAddressLn2";
+            resources.ApplyResources(this.prsAddLn2Lbl, "prsAddLn2Lbl");
+            this.prsAddLn2Lbl.Name = "prsAddLn2Lbl";
             // 
-            // textBox3
+            // prsAddLn1Entry
             // 
-            resources.ApplyResources(this.textBox3, "textBox3");
-            this.textBox3.Name = "textBox3";
+            resources.ApplyResources(this.prsAddLn1Entry, "prsAddLn1Entry");
+            this.prsAddLn1Entry.Name = "prsAddLn1Entry";
             // 
-            // patientAddressLn1
+            // prsAddLn1Lbl
             // 
-            resources.ApplyResources(this.patientAddressLn1, "patientAddressLn1");
-            this.patientAddressLn1.Name = "patientAddressLn1";
+            resources.ApplyResources(this.prsAddLn1Lbl, "prsAddLn1Lbl");
+            this.prsAddLn1Lbl.Name = "prsAddLn1Lbl";
             // 
-            // textBox2
+            // prsFornameEntry
             // 
-            resources.ApplyResources(this.textBox2, "textBox2");
-            this.textBox2.Name = "textBox2";
+            resources.ApplyResources(this.prsFornameEntry, "prsFornameEntry");
+            this.prsFornameEntry.Name = "prsFornameEntry";
             // 
-            // patientForename
+            // prsForenameLbl
             // 
-            resources.ApplyResources(this.patientForename, "patientForename");
-            this.patientForename.Name = "patientForename";
+            resources.ApplyResources(this.prsForenameLbl, "prsForenameLbl");
+            this.prsForenameLbl.Name = "prsForenameLbl";
             // 
-            // patientSurname
+            // presSurnameLbl
             // 
-            resources.ApplyResources(this.patientSurname, "patientSurname");
-            this.patientSurname.Name = "patientSurname";
+            resources.ApplyResources(this.presSurnameLbl, "presSurnameLbl");
+            this.presSurnameLbl.Name = "presSurnameLbl";
             // 
-            // textBox1
+            // prsSurnameEntry
             // 
-            resources.ApplyResources(this.textBox1, "textBox1");
-            this.textBox1.Name = "textBox1";
+            resources.ApplyResources(this.prsSurnameEntry, "prsSurnameEntry");
+            this.prsSurnameEntry.Name = "prsSurnameEntry";
             // 
-            // prescriptionInfo
+            // prsPrescriptionGrp
             // 
-            resources.ApplyResources(this.prescriptionInfo, "prescriptionInfo");
-            this.prescriptionInfo.Controls.Add(this.comboBox2);
-            this.prescriptionInfo.Controls.Add(this.label1);
-            this.prescriptionInfo.Controls.Add(this.prescriptionNotes);
-            this.prescriptionInfo.Controls.Add(this.textBox9);
-            this.prescriptionInfo.Controls.Add(this.textBox4);
-            this.prescriptionInfo.Controls.Add(this.dateTimePicker2);
-            this.prescriptionInfo.Controls.Add(this.prescriptionDate);
-            this.prescriptionInfo.Controls.Add(this.prescriptionQuantity);
-            this.prescriptionInfo.Controls.Add(this.prescriptionName);
-            this.prescriptionInfo.Name = "prescriptionInfo";
-            this.prescriptionInfo.TabStop = false;
+            resources.ApplyResources(this.prsPrescriptionGrp, "prsPrescriptionGrp");
+            this.prsPrescriptionGrp.Controls.Add(this.prsRenewCombo);
+            this.prsPrescriptionGrp.Controls.Add(this.prsRenewLbl);
+            this.prsPrescriptionGrp.Controls.Add(this.prsNotesGrp);
+            this.prsPrescriptionGrp.Controls.Add(this.prsQuantityEntry);
+            this.prsPrescriptionGrp.Controls.Add(this.prsPrescriptionNameEntry);
+            this.prsPrescriptionGrp.Controls.Add(this.prsDatePicker);
+            this.prsPrescriptionGrp.Controls.Add(this.prsDateLbl);
+            this.prsPrescriptionGrp.Controls.Add(this.prsQuantityLbl);
+            this.prsPrescriptionGrp.Controls.Add(this.prsPrescriptionNameLbl);
+            this.prsPrescriptionGrp.Name = "prsPrescriptionGrp";
+            this.prsPrescriptionGrp.TabStop = false;
             // 
-            // comboBox2
+            // prsRenewCombo
             // 
-            resources.ApplyResources(this.comboBox2, "comboBox2");
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Name = "comboBox2";
+            resources.ApplyResources(this.prsRenewCombo, "prsRenewCombo");
+            this.prsRenewCombo.FormattingEnabled = true;
+            this.prsRenewCombo.Name = "prsRenewCombo";
             // 
-            // label1
+            // prsRenewLbl
             // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.Name = "label1";
+            resources.ApplyResources(this.prsRenewLbl, "prsRenewLbl");
+            this.prsRenewLbl.Name = "prsRenewLbl";
             // 
-            // prescriptionNotes
+            // prsNotesGrp
             // 
-            resources.ApplyResources(this.prescriptionNotes, "prescriptionNotes");
-            this.prescriptionNotes.Controls.Add(this.textBox10);
-            this.prescriptionNotes.Name = "prescriptionNotes";
-            this.prescriptionNotes.TabStop = false;
-            this.prescriptionNotes.Enter += new System.EventHandler(this.groupBox1_Enter_1);
+            resources.ApplyResources(this.prsNotesGrp, "prsNotesGrp");
+            this.prsNotesGrp.Controls.Add(this.prsNotesEntry);
+            this.prsNotesGrp.Name = "prsNotesGrp";
+            this.prsNotesGrp.TabStop = false;
+            this.prsNotesGrp.Enter += new System.EventHandler(this.groupBox1_Enter_1);
             // 
-            // textBox10
+            // prsNotesEntry
             // 
-            resources.ApplyResources(this.textBox10, "textBox10");
-            this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox10.Name = "textBox10";
+            resources.ApplyResources(this.prsNotesEntry, "prsNotesEntry");
+            this.prsNotesEntry.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.prsNotesEntry.Name = "prsNotesEntry";
             // 
-            // textBox9
+            // prsQuantityEntry
             // 
-            resources.ApplyResources(this.textBox9, "textBox9");
-            this.textBox9.Name = "textBox9";
+            resources.ApplyResources(this.prsQuantityEntry, "prsQuantityEntry");
+            this.prsQuantityEntry.Name = "prsQuantityEntry";
             // 
-            // textBox4
+            // prsPrescriptionNameEntry
             // 
-            resources.ApplyResources(this.textBox4, "textBox4");
-            this.textBox4.Name = "textBox4";
+            resources.ApplyResources(this.prsPrescriptionNameEntry, "prsPrescriptionNameEntry");
+            this.prsPrescriptionNameEntry.Name = "prsPrescriptionNameEntry";
             // 
-            // dateTimePicker2
+            // prsDatePicker
             // 
-            resources.ApplyResources(this.dateTimePicker2, "dateTimePicker2");
-            this.dateTimePicker2.Name = "dateTimePicker2";
+            resources.ApplyResources(this.prsDatePicker, "prsDatePicker");
+            this.prsDatePicker.Name = "prsDatePicker";
             // 
-            // prescriptionDate
+            // prsDateLbl
             // 
-            resources.ApplyResources(this.prescriptionDate, "prescriptionDate");
-            this.prescriptionDate.Name = "prescriptionDate";
+            resources.ApplyResources(this.prsDateLbl, "prsDateLbl");
+            this.prsDateLbl.Name = "prsDateLbl";
             // 
-            // prescriptionQuantity
+            // prsQuantityLbl
             // 
-            resources.ApplyResources(this.prescriptionQuantity, "prescriptionQuantity");
-            this.prescriptionQuantity.Name = "prescriptionQuantity";
+            resources.ApplyResources(this.prsQuantityLbl, "prsQuantityLbl");
+            this.prsQuantityLbl.Name = "prsQuantityLbl";
             // 
-            // prescriptionName
+            // prsPrescriptionNameLbl
             // 
-            resources.ApplyResources(this.prescriptionName, "prescriptionName");
-            this.prescriptionName.Name = "prescriptionName";
+            resources.ApplyResources(this.prsPrescriptionNameLbl, "prsPrescriptionNameLbl");
+            this.prsPrescriptionNameLbl.Name = "prsPrescriptionNameLbl";
             // 
             // btnCancel
             // 
@@ -284,60 +284,60 @@
             this.CancelButton = this.btnCancel;
             this.Controls.Add(this.btnApply);
             this.Controls.Add(this.btnCancel);
-            this.Controls.Add(this.prescriptionInfo);
-            this.Controls.Add(this.patientDetails);
+            this.Controls.Add(this.prsPrescriptionGrp);
+            this.Controls.Add(this.prsPatientGrp);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "PrescriptionForm";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.patientDetails.ResumeLayout(false);
-            this.patientDetails.PerformLayout();
-            this.patientAddress.ResumeLayout(false);
-            this.patientAddress.PerformLayout();
-            this.prescriptionInfo.ResumeLayout(false);
-            this.prescriptionInfo.PerformLayout();
-            this.prescriptionNotes.ResumeLayout(false);
-            this.prescriptionNotes.PerformLayout();
+            this.prsPatientGrp.ResumeLayout(false);
+            this.prsPatientGrp.PerformLayout();
+            this.prsAddressGrp.ResumeLayout(false);
+            this.prsAddressGrp.PerformLayout();
+            this.prsPrescriptionGrp.ResumeLayout(false);
+            this.prsPrescriptionGrp.PerformLayout();
+            this.prsNotesGrp.ResumeLayout(false);
+            this.prsNotesGrp.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox patientDetails;
-        private System.Windows.Forms.GroupBox patientAddress;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label patientAddressLn1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label patientForename;
-        private System.Windows.Forms.Label patientSurname;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label patientTitle;
-        private System.Windows.Forms.Label patientDateOfBirth;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.Label patientPostCode;
-        private System.Windows.Forms.Label patientTown;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Label patientCounty;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label patientAddressLn2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.GroupBox prescriptionInfo;
-        private System.Windows.Forms.GroupBox prescriptionNotes;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.Label prescriptionDate;
-        private System.Windows.Forms.Label prescriptionQuantity;
-        private System.Windows.Forms.Label prescriptionName;
+        private System.Windows.Forms.GroupBox prsPatientGrp;
+        private System.Windows.Forms.GroupBox prsAddressGrp;
+        private System.Windows.Forms.TextBox prsAddLn1Entry;
+        private System.Windows.Forms.Label prsAddLn1Lbl;
+        private System.Windows.Forms.TextBox prsFornameEntry;
+        private System.Windows.Forms.Label prsForenameLbl;
+        private System.Windows.Forms.Label presSurnameLbl;
+        private System.Windows.Forms.TextBox prsSurnameEntry;
+        private System.Windows.Forms.ComboBox prsTitleCombo;
+        private System.Windows.Forms.Label prsTitleLbl;
+        private System.Windows.Forms.Label prsDateOfBirthLbl;
+        private System.Windows.Forms.TextBox prsPostCodeEntry;
+        private System.Windows.Forms.Label prsPostCodeLbl;
+        private System.Windows.Forms.Label prsTownLbl;
+        private System.Windows.Forms.TextBox prsCountyEntry;
+        private System.Windows.Forms.Label prsCountyLbl;
+        private System.Windows.Forms.TextBox prsTownEntry;
+        private System.Windows.Forms.TextBox prsAddLn2Entry;
+        private System.Windows.Forms.Label prsAddLn2Lbl;
+        private System.Windows.Forms.DateTimePicker prsDOBPicker;
+        private System.Windows.Forms.GroupBox prsPrescriptionGrp;
+        private System.Windows.Forms.GroupBox prsNotesGrp;
+        private System.Windows.Forms.TextBox prsQuantityEntry;
+        private System.Windows.Forms.TextBox prsPrescriptionNameEntry;
+        private System.Windows.Forms.DateTimePicker prsDatePicker;
+        private System.Windows.Forms.Label prsDateLbl;
+        private System.Windows.Forms.Label prsQuantityLbl;
+        private System.Windows.Forms.Label prsPrescriptionNameLbl;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnApply;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.ComboBox prsRenewCombo;
+        private System.Windows.Forms.Label prsRenewLbl;
+        private System.Windows.Forms.TextBox prsNotesEntry;
     }
 }
