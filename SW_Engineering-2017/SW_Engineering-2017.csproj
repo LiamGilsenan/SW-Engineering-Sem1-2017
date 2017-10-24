@@ -53,6 +53,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StaffSchdueTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffSchdueTest.designer.cs">
+      <DependentUpon>StaffSchdueTest.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="PrescriptionForm.en.resx">
       <DependentUpon>PrescriptionForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -68,6 +74,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="StaffSchdueTest.resx">
+      <DependentUpon>StaffSchdueTest.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
