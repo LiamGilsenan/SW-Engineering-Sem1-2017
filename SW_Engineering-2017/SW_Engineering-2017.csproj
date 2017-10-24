@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PatientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientForm.Designer.cs">
+      <DependentUpon>PatientForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="PrescriptionForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -53,12 +59,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StaffSchdueTest.cs">
+    <Compile Include="ScheduleForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StaffSchdueTest.designer.cs">
-      <DependentUpon>StaffSchdueTest.cs</DependentUpon>
+    <Compile Include="ScheduleForm.designer.cs">
+      <DependentUpon>ScheduleForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="PatientForm.resx">
+      <DependentUpon>PatientForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PrescriptionForm.en.resx">
       <DependentUpon>PrescriptionForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -74,8 +83,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="StaffSchdueTest.resx">
-      <DependentUpon>StaffSchdueTest.cs</DependentUpon>
+    <EmbeddedResource Include="ScheduleForm.resx">
+      <DependentUpon>ScheduleForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
