@@ -7,3 +7,6 @@ C:\Users\laptop\Documents\Software Engineering\SW-Engineering-Sem1-2017\SW_Engin
 C:\Users\laptop\Documents\Software Engineering\SW-Engineering-Sem1-2017\SW_Engineering-2017\obj\Release\SW_Engineering-2017.exe
 C:\Users\laptop\Documents\Software Engineering\SW-Engineering-Sem1-2017\SW_Engineering-2017\obj\Release\SW_Engineering-2017.pdb
 C:\Users\laptop\Documents\Software Engineering\SW-Engineering-Sem1-2017\SW_Engineering-2017\obj\Release\SW_Engineering_2017.mainForm.resources
+K:\SW-Engineering-Sem1-2017\SW_Engineering-2017\bin\Release\SW_Engineering-2017.exe.config
+K:\SW-Engineering-Sem1-2017\SW_Engineering-2017\obj\Release\SW_Engineering-2017.exe
+K:\SW-Engineering-Sem1-2017\SW_Engineering-2017\obj\Release\SW_Engineering-2017.pdb
