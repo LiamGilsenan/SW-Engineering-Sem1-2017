@@ -1,0 +1,9 @@
+C:\Users\laptop\Documents\Software Engineering\SW-Engineering-Sem1-2017\SW_Engineering-2017\bin\Release\SW_Engineering-2017.exe.config
+C:\Users\laptop\Documents\Software Engineering\SW-Engineering-Sem1-2017\SW_Engineering-2017\bin\Release\SW_Engineering-2017.exe
+C:\Users\laptop\Documents\Software Engineering\SW-Engineering-Sem1-2017\SW_Engineering-2017\bin\Release\SW_Engineering-2017.pdb
+C:\Users\laptop\Documents\Software Engineering\SW-Engineering-Sem1-2017\SW_Engineering-2017\obj\Release\SW_Engineering-2017.csprojResolveAssemblyReference.cache
+C:\Users\laptop\Documents\Software Engineering\SW-Engineering-Sem1-2017\SW_Engineering-2017\obj\Release\SW_Engineering_2017.Properties.Resources.resources
+C:\Users\laptop\Documents\Software Engineering\SW-Engineering-Sem1-2017\SW_Engineering-2017\obj\Release\SW_Engineering-2017.csproj.GenerateResource.Cache
+C:\Users\laptop\Documents\Software Engineering\SW-Engineering-Sem1-2017\SW_Engineering-2017\obj\Release\SW_Engineering-2017.exe
+C:\Users\laptop\Documents\Software Engineering\SW-Engineering-Sem1-2017\SW_Engineering-2017\obj\Release\SW_Engineering-2017.pdb
+C:\Users\laptop\Documents\Software Engineering\SW-Engineering-Sem1-2017\SW_Engineering-2017\obj\Release\SW_Engineering_2017.mainForm.resources
