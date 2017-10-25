@@ -1,5 +1,5 @@
 # MOD003263 - Software Engineering
-## ARU Cambridgem, Semester 1, 2017
+## ARU Cambridge, Semester 1, 2017
 ### Group:
 
 * Quinn Wilby - Project Leader
