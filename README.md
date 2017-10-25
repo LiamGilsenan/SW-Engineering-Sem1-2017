@@ -3,10 +3,10 @@
 ### Group:
 
 * Quinn Wilby - Project Leader
-	* Github Username: Druanae
+	* Github Username: `Druanae`
 * Matthew Thorndyke - Lead Programmer
-	* Github Username: MattThorndyke
+	* Github Username: `MattThorndyke`
 * Emrick Etheridge - Lead Designer
-	* Github Username: emricketheridge
+	* Github Username: `emricketheridge`
 * Liam Gilsenan - Lead Tester
-	* Github Username: LiamGilsenan
+	* Github Username: `LiamGilsenan`
