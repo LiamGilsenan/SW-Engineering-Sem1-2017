@@ -1,5 +1,3 @@
-obj/debug/
-
-bin/debug/
-
+obj/
+bin/
 .vs/
