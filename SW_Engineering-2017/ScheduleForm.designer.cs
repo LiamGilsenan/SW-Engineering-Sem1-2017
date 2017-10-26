@@ -93,10 +93,16 @@
             this.label4 = new System.Windows.Forms.Label();
             this.NameLable = new System.Windows.Forms.TextBox();
             this.StaffIDlabletrs2 = new System.Windows.Forms.TextBox();
+            this.changeStaffSchedulePanel = new System.Windows.Forms.Panel();
+            this.staffScheduleSearchPanel = new System.Windows.Forms.Panel();
+            this.testResultSearchPanel = new System.Windows.Forms.Panel();
             this.TestResutsSearch.SuspendLayout();
             this.PatientTestResults.SuspendLayout();
             this.ChangeStaffSchedualtx.SuspendLayout();
             this.StaffScheduleSearch.SuspendLayout();
+            this.changeStaffSchedulePanel.SuspendLayout();
+            this.staffScheduleSearchPanel.SuspendLayout();
+            this.testResultSearchPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // TestResutsSearch
@@ -116,7 +122,7 @@
             this.TestResutsSearch.Controls.Add(this.StaffNameLable);
             this.TestResutsSearch.Controls.Add(this.PatientTR);
             this.TestResutsSearch.Controls.Add(this.StaffNameTRS);
-            this.TestResutsSearch.Location = new System.Drawing.Point(12, 35);
+            this.TestResutsSearch.Location = new System.Drawing.Point(10, 3);
             this.TestResutsSearch.Name = "TestResutsSearch";
             this.TestResutsSearch.Size = new System.Drawing.Size(565, 419);
             this.TestResutsSearch.TabIndex = 35;
@@ -391,7 +397,7 @@
             this.ChangeStaffSchedualtx.Controls.Add(this.NameLable2);
             this.ChangeStaffSchedualtx.Controls.Add(this.StaffIDlabletrs3);
             this.ChangeStaffSchedualtx.Controls.Add(this.StaffScheduleSearcLable);
-            this.ChangeStaffSchedualtx.Location = new System.Drawing.Point(884, 35);
+            this.ChangeStaffSchedualtx.Location = new System.Drawing.Point(18, 10);
             this.ChangeStaffSchedualtx.Name = "ChangeStaffSchedualtx";
             this.ChangeStaffSchedualtx.Size = new System.Drawing.Size(282, 261);
             this.ChangeStaffSchedualtx.TabIndex = 37;
@@ -559,7 +565,7 @@
             this.StaffScheduleSearch.Controls.Add(this.label4);
             this.StaffScheduleSearch.Controls.Add(this.NameLable);
             this.StaffScheduleSearch.Controls.Add(this.StaffIDlabletrs2);
-            this.StaffScheduleSearch.Location = new System.Drawing.Point(595, 35);
+            this.StaffScheduleSearch.Location = new System.Drawing.Point(30, 19);
             this.StaffScheduleSearch.Name = "StaffScheduleSearch";
             this.StaffScheduleSearch.Size = new System.Drawing.Size(257, 308);
             this.StaffScheduleSearch.TabIndex = 29;
@@ -741,16 +747,40 @@
             this.StaffIDlabletrs2.Size = new System.Drawing.Size(156, 20);
             this.StaffIDlabletrs2.TabIndex = 19;
             // 
-            // Form1
+            // changeStaffSchedulePanel
+            // 
+            this.changeStaffSchedulePanel.Controls.Add(this.ChangeStaffSchedualtx);
+            this.changeStaffSchedulePanel.Location = new System.Drawing.Point(885, 29);
+            this.changeStaffSchedulePanel.Name = "changeStaffSchedulePanel";
+            this.changeStaffSchedulePanel.Size = new System.Drawing.Size(312, 281);
+            this.changeStaffSchedulePanel.TabIndex = 38;
+            // 
+            // staffScheduleSearchPanel
+            // 
+            this.staffScheduleSearchPanel.Controls.Add(this.StaffScheduleSearch);
+            this.staffScheduleSearchPanel.Location = new System.Drawing.Point(583, 12);
+            this.staffScheduleSearchPanel.Name = "staffScheduleSearchPanel";
+            this.staffScheduleSearchPanel.Size = new System.Drawing.Size(309, 344);
+            this.staffScheduleSearchPanel.TabIndex = 39;
+            // 
+            // testResultSearchPanel
+            // 
+            this.testResultSearchPanel.Controls.Add(this.TestResutsSearch);
+            this.testResultSearchPanel.Location = new System.Drawing.Point(2, 12);
+            this.testResultSearchPanel.Name = "testResultSearchPanel";
+            this.testResultSearchPanel.Size = new System.Drawing.Size(575, 433);
+            this.testResultSearchPanel.TabIndex = 40;
+            // 
+            // StaffSchdueTest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(1197, 466);
-            this.Controls.Add(this.StaffScheduleSearch);
-            this.Controls.Add(this.ChangeStaffSchedualtx);
-            this.Controls.Add(this.TestResutsSearch);
-            this.Name = "Form1";
+            this.Controls.Add(this.testResultSearchPanel);
+            this.Controls.Add(this.staffScheduleSearchPanel);
+            this.Controls.Add(this.changeStaffSchedulePanel);
+            this.Name = "StaffSchdueTest";
             this.Text = "Test Results";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.TestResutsSearch.ResumeLayout(false);
@@ -761,6 +791,9 @@
             this.ChangeStaffSchedualtx.PerformLayout();
             this.StaffScheduleSearch.ResumeLayout(false);
             this.StaffScheduleSearch.PerformLayout();
+            this.changeStaffSchedulePanel.ResumeLayout(false);
+            this.staffScheduleSearchPanel.ResumeLayout(false);
+            this.testResultSearchPanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -831,6 +864,9 @@
         private System.Windows.Forms.DateTimePicker dateTimetTo;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DateTimePicker dateTimetTo2;
+        private System.Windows.Forms.Panel changeStaffSchedulePanel;
+        private System.Windows.Forms.Panel staffScheduleSearchPanel;
+        private System.Windows.Forms.Panel testResultSearchPanel;
     }
 }
 

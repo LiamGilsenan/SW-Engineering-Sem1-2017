@@ -34,15 +34,19 @@
             this.userName_L_tb = new System.Windows.Forms.TextBox();
             this.password_L_tb = new System.Windows.Forms.TextBox();
             this.Loginbx = new System.Windows.Forms.GroupBox();
+            this.loginBtn = new System.Windows.Forms.Button();
             this.choiceBx = new System.Windows.Forms.GroupBox();
             this.logOutBtn = new System.Windows.Forms.Button();
             this.prescriptionBtn = new System.Windows.Forms.Button();
             this.scheduleBtn = new System.Windows.Forms.Button();
             this.testResultsBtn = new System.Windows.Forms.Button();
             this.patientBtn = new System.Windows.Forms.Button();
-            this.loginBtn = new System.Windows.Forms.Button();
+            this.loginPanel = new System.Windows.Forms.Panel();
+            this.choicePanel = new System.Windows.Forms.Panel();
             this.Loginbx.SuspendLayout();
             this.choiceBx.SuspendLayout();
+            this.loginPanel.SuspendLayout();
+            this.choicePanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // login_L_lbl
@@ -98,13 +102,22 @@
             this.Loginbx.Controls.Add(this.userName_L_lbl);
             this.Loginbx.Controls.Add(this.userName_L_tb);
             this.Loginbx.Controls.Add(this.password_L_lbl);
-            this.Loginbx.Location = new System.Drawing.Point(28, 60);
+            this.Loginbx.Location = new System.Drawing.Point(36, 12);
             this.Loginbx.Name = "Loginbx";
             this.Loginbx.Size = new System.Drawing.Size(475, 249);
             this.Loginbx.TabIndex = 5;
             this.Loginbx.TabStop = false;
             this.Loginbx.Text = "Login Box";
             this.Loginbx.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // loginBtn
+            // 
+            this.loginBtn.Location = new System.Drawing.Point(376, 22);
+            this.loginBtn.Name = "loginBtn";
+            this.loginBtn.Size = new System.Drawing.Size(75, 23);
+            this.loginBtn.TabIndex = 5;
+            this.loginBtn.Text = "Login";
+            this.loginBtn.UseVisualStyleBackColor = true;
             // 
             // choiceBx
             // 
@@ -113,7 +126,7 @@
             this.choiceBx.Controls.Add(this.scheduleBtn);
             this.choiceBx.Controls.Add(this.testResultsBtn);
             this.choiceBx.Controls.Add(this.patientBtn);
-            this.choiceBx.Location = new System.Drawing.Point(556, 60);
+            this.choiceBx.Location = new System.Drawing.Point(21, 17);
             this.choiceBx.Name = "choiceBx";
             this.choiceBx.Size = new System.Drawing.Size(423, 249);
             this.choiceBx.TabIndex = 6;
@@ -165,27 +178,37 @@
             this.patientBtn.Text = "Patient";
             this.patientBtn.UseVisualStyleBackColor = true;
             // 
-            // loginBtn
+            // loginPanel
             // 
-            this.loginBtn.Location = new System.Drawing.Point(376, 22);
-            this.loginBtn.Name = "loginBtn";
-            this.loginBtn.Size = new System.Drawing.Size(75, 23);
-            this.loginBtn.TabIndex = 5;
-            this.loginBtn.Text = "Login";
-            this.loginBtn.UseVisualStyleBackColor = true;
+            this.loginPanel.Controls.Add(this.Loginbx);
+            this.loginPanel.Location = new System.Drawing.Point(12, 12);
+            this.loginPanel.Name = "loginPanel";
+            this.loginPanel.Size = new System.Drawing.Size(525, 280);
+            this.loginPanel.TabIndex = 7;
+            // 
+            // choicePanel
+            // 
+            this.choicePanel.Controls.Add(this.choiceBx);
+            this.choicePanel.Location = new System.Drawing.Point(543, 12);
+            this.choicePanel.Name = "choicePanel";
+            this.choicePanel.Size = new System.Drawing.Size(447, 289);
+            this.choicePanel.TabIndex = 8;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1061, 374);
-            this.Controls.Add(this.choiceBx);
-            this.Controls.Add(this.Loginbx);
+            this.Controls.Add(this.choicePanel);
+            this.Controls.Add(this.loginPanel);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.Loginbx.ResumeLayout(false);
             this.Loginbx.PerformLayout();
             this.choiceBx.ResumeLayout(false);
+            this.loginPanel.ResumeLayout(false);
+            this.choicePanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -205,6 +228,8 @@
         private System.Windows.Forms.Button patientBtn;
         private System.Windows.Forms.Button logOutBtn;
         private System.Windows.Forms.Button loginBtn;
+        private System.Windows.Forms.Panel loginPanel;
+        private System.Windows.Forms.Panel choicePanel;
     }
 }
 
