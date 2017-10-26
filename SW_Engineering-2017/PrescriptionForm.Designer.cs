@@ -395,7 +395,7 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.White;
             this.CancelButton = this.btnCancel;
-            this.ClientSize = new System.Drawing.Size(800, 362);
+            this.ClientSize = new System.Drawing.Size(772, 357);
             this.Controls.Add(this.prescriptionPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
