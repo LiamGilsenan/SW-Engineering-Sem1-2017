@@ -37,6 +37,7 @@
             this.ClientSize = new System.Drawing.Size(855, 404);
             this.Name = "mainForm";
             this.Text = "Surgery System";
+            this.Load += new System.EventHandler(this.mainForm_Load);
             this.ResumeLayout(false);
 
         }

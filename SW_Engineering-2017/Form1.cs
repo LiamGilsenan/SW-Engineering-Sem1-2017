@@ -14,9 +14,12 @@ namespace SW_Engineering_2017
     {
         public mainForm()
         {
-            InitializeComponent();
+            InitializeComponent();   
         }
 
-      
+        private void mainForm_Load(object sender, EventArgs e)
+        {
+               
+        }
     }
 }
