@@ -60,6 +60,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Connection.cs" />
+    <Compile Include="Constants.cs" />
     <Compile Include="finalUI.cs">
       <SubType>Form</SubType>
     </Compile>
